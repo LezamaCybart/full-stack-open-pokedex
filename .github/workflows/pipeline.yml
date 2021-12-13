@@ -33,3 +33,5 @@ jobs:
                   heroku_app_name: "stark-forest-36419"
                   heroku_email: "lezamacybartmatiasgerman@gmail.com"
                   healthcheck: "https://stark-forest-36419.herokuapp.com/health"
+                  checkstring: "ok"
+                  rollbackonhealthcheckfailed: true
