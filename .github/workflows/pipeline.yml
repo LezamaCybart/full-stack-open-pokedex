@@ -32,4 +32,4 @@ jobs:
                   heroku_api_key: ${{secrets.HEROKU_API_KEY}}
                   heroku_app_name: "stark-forest-36419"
                   heroku_email: "lezamacybartmatiasgerman@gmail.com"
-                  healthcheck: "https://[stark-forest-36419].herokuapp.com/health"
+                  healthcheck: "https://stark-forest-36419.herokuapp.com/health"
